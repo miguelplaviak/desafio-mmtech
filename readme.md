@@ -2,7 +2,7 @@
 
 ![Capa do Projeto](https://cdn.discordapp.com/attachments/691101774471233567/1393292258434089082/image.png?ex=6872a408&is=68715288&hm=d8b3879ac66f072abe1eb26cf5e0b7a2116fdc594118e68a2f397649b99a7db3&)
 
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 
 Este é um projeto desenvolvido como parte do desafio técnico para a vaga de desenvolvedor na MMTECH. A aplicação é uma agenda de contatos completa, construída como uma Single Page Application (SPA), com frontend em React e um backend em Node.js.
 
@@ -10,7 +10,7 @@ O objetivo foi criar uma interface moderna, intuitiva e responsiva, focando na e
 
 ---
 
-## ✨ Funcionalidades Principais
+## Funcionalidades Principais
 
 - **CRUD Completo:** Crie, leia, atualize e delete contatos de forma persistente.
 - **Busca Global:** Pesquise contatos em tempo real por qualquer campo (nome, email, telefone ou setor).
@@ -25,7 +25,7 @@ O objetivo foi criar uma interface moderna, intuitiva e responsiva, focando na e
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 **Backend:**
 - **Node.js:** Ambiente de execução do servidor.
@@ -42,7 +42,7 @@ O objetivo foi criar uma interface moderna, intuitiva e responsiva, focando na e
 
 ---
 
-## 🚀 Como Rodar o Projeto
+## Como Rodar o Projeto
 
 Para executar este projeto localmente, siga os passos abaixo.
 
@@ -53,7 +53,7 @@ Para executar este projeto localmente, siga os passos abaixo.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone URL_DO_SEU_REPOSITORIO_AQUI
+    git clone [URL_DO_SEU_REPOSITORIO_AQUI](https://github.com/unttizada/desafio-mmtech)
     cd mmtech-desafio
     ```
 
@@ -83,13 +83,13 @@ Para executar este projeto localmente, siga os passos abaixo.
 
 ---
 
-## 🎯 Desafios e Aprendizados
+## Desafios e Aprendizados
 
 Um dos principais desafios neste projeto foi garantir que a interface se mantivesse fluida e responsiva, mesmo com as animações de expansão dos cards. Foi um ótimo exercício de CSS Grid e de gerenciamento de estado no React.
 
 Este projeto foi uma excelente oportunidade para aprofundar meus conhecimentos na criação de uma API RESTful completa com Node.js e na construção de um frontend reativo e bem estruturado com React Hooks.
 
-## 👨‍💻 Autor
+## Autor
 
 **Miguel Antonio Plaviak**
 
