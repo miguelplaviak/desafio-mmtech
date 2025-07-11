@@ -53,7 +53,7 @@ Para executar este projeto localmente, siga os passos abaixo.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [URL_DO_SEU_REPOSITORIO_AQUI](https://github.com/unttizada/desafio-mmtech)
+    git clone https://github.com/unttizada/desafio-mmtech
     cd mmtech-desafio
     ```
 
