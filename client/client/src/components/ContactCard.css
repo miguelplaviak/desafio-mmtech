@@ -1,0 +1,121 @@
+.contact-card {
+  position: relative;
+  background-color: #161b22;
+  border: 1px solid rgba(56, 139, 253, 0.4);
+  border-radius: 12px;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out; 
+  overflow: hidden;
+}
+
+.contact-card:hover {
+  border-color: rgba(56, 139, 253, 0.8);
+  box-shadow: 0 0 15px rgba(56, 139, 253, 0.5);
+  transform: translateY(-5px);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header h3 {
+  margin: 0;
+  color: #c9d1d9;
+}
+
+.sector-tag {
+  /* ... seu estilo existente para a tag ... */
+  background-color: rgba(56, 139, 253, 0.15);
+  color: #58a6ff;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+/* Cores específicas por setor */
+.sector-tag.tag-dev {
+  background-color: rgba(56, 139, 253, 0.15); /* Azul */
+  color: #58a6ff;
+}
+
+.sector-tag.tag-design {
+  background-color: rgba(216, 119, 255, 0.15); /* Roxo */
+  color: #d877ff;
+}
+
+.sector-tag.tag-marketing {
+  background-color: rgba(60, 179, 113, 0.15); /* Verde */
+  color: #3cb371;
+}
+
+.sector-tag.tag-rh {
+  background-color: rgba(255, 165, 0, 0.15); /* Laranja */
+  color: #ffa500;
+}
+
+.sector-tag.tag-financeiro {
+  background-color: rgba(220, 220, 220, 0.15); /* Cinza claro */
+  color: #dcdcdc;
+}
+
+.card-details {
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.4s ease-in-out, opacity 0.3s ease-in, margin-top 0.4s ease-in-out;
+  margin-top: 0;
+}
+
+.contact-card.expanded .card-details {
+  max-height: 100px;
+  opacity: 1;
+  margin-top: 5px;
+  cursor: default;
+}
+
+.card-details p {
+  margin: 8px 0;
+  color: #8b949e;
+}
+
+.card-details p strong {
+  color: #c9d1d9;
+}
+
+.action-icon {
+  position: absolute;
+  top: 80px;
+  right: -45px;
+  
+  color: #d6d8db;
+  font-size: 100px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.action-icon:hover {
+  color: #c9d1d9;
+  transform: rotate(45deg);
+  background-color: rgba(56, 139, 253, 0.1);
+}
+
+.copy-icon {
+  margin-left: 12px;
+  cursor: pointer;
+  color: #8b949e;
+  transition: color 0.2s ease;
+}
+
+.copy-icon:hover {
+  color: #58a6ff;
+}
+
+.copy-icon.fa-check {
+  color: #2ea043;
+}

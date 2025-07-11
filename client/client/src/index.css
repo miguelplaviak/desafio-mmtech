@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@500;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  
+  background-color: #0d1117;
+  background-image: radial-gradient(at 20% 20%, hsla(278, 80%, 25%, 0.4) 0px, transparent 50%),
+                    radial-gradient(at 80% 80%, hsla(220, 80%, 30%, 0.3) 0px, transparent 50%);
+
+  color: #F5F5F7;
+
+  min-height: 100vh
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

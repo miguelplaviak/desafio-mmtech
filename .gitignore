@@ -1,0 +1,22 @@
+# Dependências
+node_modules/
+/server/node_modules
+/client/client/node_modules
+
+# Arquivos de Build do React
+/client/client/build
+
+# Arquivos de Log
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+
+# Arquivos de Banco de Dados
+*.db
+
+# Variáveis de Ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
