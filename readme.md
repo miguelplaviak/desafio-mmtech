@@ -53,7 +53,7 @@ Para executar este projeto localmente, siga os passos abaixo.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/unttizada/desafio-mmtech
+    git clone https://github.com/miguelplaviak/desafio-mmtech
     cd mmtech-desafio
     ```
 
@@ -94,4 +94,4 @@ Este projeto foi uma excelente oportunidade para aprofundar meus conhecimentos n
 **Miguel Antonio Plaviak**
 
 - [LinkedIn](https://www.linkedin.com/in/miguel-antonio-p-411216243/)
-- [GitHub](https://github.com/unttizada)
+- [GitHub](https://github.com/miguelplaviak)
